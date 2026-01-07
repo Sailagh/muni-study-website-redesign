@@ -22,6 +22,11 @@ easier to navigate, and more pleasant to use while keeping the original educatio
 ## Original website
 https://www.sci.muni.cz/~anatomy/1_page/1_page.htm
 
+## Note on assets
+For portfolio purposes, only a representative subset of images is included in this repository.
+The full image set was reduced to keep the repository lightweight while preserving the structure
+and visual presentation of the website.
+
 ## Disclaimer
 This project is a redesign created for educational purposes.
 All original educational content belongs to its respective authors.
