@@ -31,21 +31,24 @@ and visual presentation of the website.
 
 ### Main page
 **Before:**  
-![Before main](screenshots/before_main.png)
+![Before main](MUNI_website_redesign/screenshots/main_before.png)
+
 **After:**  
-![After main](screenshots/after_main.png)
+![After main](MUNI_website_redesign/screenshots/main_after.png)
 
 ### Subpage example
 **Before:**  
-![Before subpage](screenshots/before_subpage.png)
+![Before subpage](MUNI_website_redesign/screenshots/subpage_before.png)
+
 **After:**  
-![After subpage](screenshots/after_subpage.png)
+![After subpage](MUNI_website_redesign/screenshots/subpage_after.png)
 
 ### Mobile view
 **Before:**  
-![Before mobile](screenshots/before_mobile.png)
+![Before mobile](MUNI_website_redesign/screenshots/mobile_before.png)
+
 **After:**  
-![After mobile](screenshots/after_mobile.png)
+![After mobile](MUNI_website_redesign/screenshots/mobile_after.png)
 
 
 ## Disclaimer
