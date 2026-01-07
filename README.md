@@ -27,6 +27,27 @@ For portfolio purposes, only a representative subset of images is included in th
 The full image set was reduced to keep the repository lightweight while preserving the structure
 and visual presentation of the website.
 
+## Before / After Comparison
+
+### Main page
+**Before:**  
+![Before main](screenshots/before_main.png)
+**After:**  
+![After main](screenshots/after_main.png)
+
+### Subpage example
+**Before:**  
+![Before subpage](screenshots/before_subpage.png)
+**After:**  
+![After subpage](screenshots/after_subpage.png)
+
+### Mobile view
+**Before:**  
+![Before mobile](screenshots/before_mobile.png)
+**After:**  
+![After mobile](screenshots/after_mobile.png)
+
+
 ## Disclaimer
 This project is a redesign created for educational purposes.
 All original educational content belongs to its respective authors.
