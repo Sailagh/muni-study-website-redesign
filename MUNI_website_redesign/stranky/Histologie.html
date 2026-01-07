@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <title>Histologie</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="../styly/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="../JS/javas.js"></script>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <div class="flex-container" id="pom">
+        <div class="row">
+            <div class="col-md-2 col-12 text-center">
+              <header>
+              <img src="../images/Muni.png" alt="Muni1" id="Muni">
+            </div>
+            <div class="col-md-8 s-sm-none d-md-block text-center">
+                <h1 id="Hlavnynadps">Bi1060c Cytologie a anatomie rostlin - cvičení</h1>
+                </div>
+           </div>
+           </header>
+        </div>
+
+
+
+        <nav class="navbar navbar-light bg-light fixed-top col-md-12"  >
+            <a class="navbar-brand" href="#">Cytologie a anatomie rostlin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigacnyBar" aria-controls="navigacnyBar" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigacnyBar">
+    
+               <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../stranky/Main.html"> <span class="fas fa-home"></span>     Domov <span class="sr-only">(current)</span></a>
+                 </li>
+                  <li class="nav-item active dropdown">
+                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Základy mikroskopie <span class="sr-only">(current)</span></a>
+                     <div class="dropdown-menu">
+                      <a class="dropdown-item" href="../stranky/Základy_mikroskopie.html#11.">Transport mikroskopu</a>
+                      <a class="dropdown-item" href="../stranky/Základy_mikroskopie.html#12.">Uvedení mikroskopu do provozu</a>
+                      <a class="dropdown-item" href="../stranky/Základy_mikroskopie.html#13.">Nastavení vzdálenosti okulárů <br>a dioptrické korekce</a>
+                      <a class="dropdown-item" href="../stranky/Základy_mikroskopie.html#14.">Centrování a nastavení výšky kondenzoru</a>
+                      <a class="dropdown-item" href="../stranky/Základy_mikroskopie.html#15.">Nastavení aperturní a kolektorové clony<br> při mikroskopování</a>
+                  </li>
+                  <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Histologie<span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu">
+                       <a class="dropdown-item" href="../stranky/Histologie.html#21.">Krycí pletiva</a>
+                       <a class="dropdown-item" href="../stranky/Histologie.html#22.">Základní pletiva</a>
+                       <a class="dropdown-item" href="../stranky/Histologie.html#23.">Vodivá pletiva</a>
+                   
+                 </li>
+                   <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Cytologie<span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu">
+                       <a class="dropdown-item" href="../stranky/Cytologie.html#31.">Buněčná stěna, jádro, jadérko</a>
+                       <a class="dropdown-item" href="../stranky/Cytologie.html#32.">Škrobová zrna</a>
+                       <a class="dropdown-item" href="../stranky/Cytologie.html#33.">Cirkulace cytoplazmy</a>
+                       <a class="dropdown-item" href="../stranky/Cytologie.html#34.">Plazmolýza buněk</a>
+                  
+                </li>
+                <li class="nav-item active dropdown">
+                   <a class="nav-link dropdown-toggle" data-toggle="dropdown">Organologie<span class="sr-only">(current)</span></a>
+                   <div class="dropdown-menu">
+                      <a class="dropdown-item" href="../stranky/Organologie.html#41.">Anatomická stavba kořene (primární)</a>
+                      <a class="dropdown-item" href="../stranky/Organologie.html#42.">Anatomická stavba stonku (primární)</a>
+                      <a class="dropdown-item" href="../stranky/Organologie.html#43.">Anatomická stavba listu</a>
+                      <a class="dropdown-item" href="../stranky/Organologie.html#44.">Sekundární anatomická stavba stonku</a>
+                  
+                </li>
+                <li class="nav-item active">
+                   <a class="nav-link" href="../stranky/Kontakt.html">Kontakt <span class="sr-only">(current)</span></a>
+                </li>
+               </ul>
+            </div>
+         </nav>
+
+
+<div class="container">
+        <div class="row">
+           <div class="fixed-sidebar col-md-2 d-md-block ">
+              <aside>
+              <h2>Lekce     <a href="../stranky/Main.html"><span class="fas fa-home"></span></a></h2>
+              <ul>
+                 
+  <li><a href="../stranky/Základy_mikroskopie.html">Základy mikroskopie</a></li>
+  <li><a href="../stranky/Cytologie.html">Cytologie</a></li>
+  <li><a href="../stranky/Histologie.html">Histologie</a></li>
+  <li><a href="../stranky/Organologie.html">Organologie</a></li>
+              </ul>
+  
+           </aside>
+        </div>
+     </div>
+  
+     <div class="fluid-container">
+        <a href="#Muni">
+        <i id="icona" class="fas fa-arrow-up"></i>
+     </a>
+     </div>
+
+
+<div class="col offset-0 offset-md-1 col-md-12">
+         
+        <h1  id="h11">Histologie</h1>
+     
+        <div class="flex-container ">
+           <div class="row">
+           <div class="col-12 col-md-12 align-items-center d-flex justify-content-center bg-light">
+           <div class="text">
+                   <ol>
+              <li><a href="#21.">Krycí pletiva</a></li>
+              <li><a href="#22.">Základní pletiva</a></li>
+              <li><a href="#23.">Vodivá pletiva</a></li>
+              
+           </ol>
+        </div></div> </div></div>
+
+<hr>
+
+<div class="flex-container">
+<h3 id="21.">Krycí pletiva</h3>
+
+<h4>Teoretický souhrn</h4>
+<br>
+<p>Na primární stavbě (tj. před případným sekundárním tloustnutím) těla vyšších rostlin se podílejí následující čtyři typy pletiv: pletiva meristematická, krycí, základní a vodivá. Všechny tyto čtyři typy pletiv se skládají z charakteristických typů buněk a obvykle plní více než jednu funkci. Tyto funkce přitom mají jednu společnou vlastnost: jsou evolučními adaptacemi na život mimo vodní prostředí, tedy na souši.</p>
+<p>Krycí pletiva zabezpečují ochranu rostlin proti působení vnějších fyzikálních, chemických, ale i biotických vlivů, které by svým působením mohly rostlinu poškodit nebo i usmrtit. Za nejdůležitější funkci je možné označit ochrannou roli proti nadměrným ztrátám vody. U rostlin s primární anatomickou stavbou jsou nadzemní části těla rostlin chráněny primární pokožkou (epidermis), kořeny pak kryje kořenová epidermis neboli rhizodermis. Jejich roli po sekundárním ztloustnutí přebírá sekundární krycí pletivo – periderm.</p>
+<p><b>Epidermis</b> je zpravidla kompaktní, jednovrstevná, bez intercelulárních prostor. Epidermální buňky jsou typicky silně vakuolizované. V případě epidermis listů bývá jejich tvar většinou deskovitý, s četnými záhyby antiklinálních (k povrchu rostlinného orgánu kolmých) buněčných stěn. Z vnější strany má epidermis listů často silnou buněčnou stěnu a je kryta <b>kutikulou</b>, tvořenou kutiny a vosky a výraznou zejména u xerofytů. Vrstva kutikuly výrazně omezuje výpar vody z rostlinného organismu.</p>
+<p>Vzhledem k faktu, že rostlina potřebuje z okolní atmosféry přijímat CO2 pro jeho fotosyntetickou fixaci, musel se u rostlin v průběhu fylogeneze vyvinout mechanismus zabezpečující z hlediska životních pochodů rostlin dva protichůdné požadavky – zabezpečit příjem CO2 a učinně regulovat výdej vody zejména v době jejího nedostatku v rostlinném organismu. Hlavní roli v regulaci výměny těchto plynných látek mezi rostlinou a okolní atmosférou hrají <b>průduchy (stomata)</b>. Ty jsou tvořeny dvojící svěracích buněk typického ledvinovitého, popřípadě tyčinkovitého tvaru (šáchorovité - Cyperaceae, trávy - Gramineae). Svěrací buňky dle aktuálního stavu rostliny (saturace vodou, resp. vodní deficit...) a dle aktuálních ekologických podmínek (ozářenost, dostupnost vody, teplota...) zavírají či otevírají průduchovou štěrbinu. Někdy se v bezprostřední blízkosti svěracích buněk nachází ještě tzv. vedlejší buňky, morfologicky odlišné od ostatních epidermálních buněk, funkčně spjaté se svěracími buňkami průduchů.</p>
+<p><b>Papily</b> jsou jednoduché vychlípeniny vnější buněčné stěny epidermálních buněk, přítomné často např. na okvětních lístcích rostlin. Díky optickým jevům (rozptyl a lom světla) mají papilami pokryté části těla matný vzhled.</p>
+<p>Výraznější modifikací epidermálních buněk jsou <b>trichomy</b>. Svojí funkcí zesilují ochranné vlastnosti krycího pletiva – snížením proudění vzduchu v bezprostřední blízkosti listu snižují ztráty vody odparem, zvýšením odrazivosti světla (albeda) snižují teplotu listu, produkcí specifických látek chrání rostliny před býložravci. Trichomy lze rozdělit do několika funkčních skupin: </p>
+<br>
+<ol>
+    <li>Krycí trichomy – hlavní funkcí je zvýšit albedo a omezeit proudění vzduchu v bezprostřední blízkosti rostliny a tím omezit výpar.</li>
+    <li>Žlaznaté trichomy – produkují druhově specifické látky, např. esenciální oleje, které omezují herbivorii.</li>
+<li>Žahavé trichomy – jsou výraznou adaptací k potlačení herbivorie, produkují alergeny.</li>
+<li>Absorpční trichomy – vyskytují se např. u "masožravých" rostlin, napomáhají příjmu živin uvolněných z hmyzího těla působením rostlinných enzymů.</li>
+</ol>
+<br>
+<p>Trichomy dále dělíme podle počtu buněk, které je tvoří (jedno nebo vícebuněčné), a podle tvaru (jednoduché nevětvené a větvené trichomy).</p>
+<p>Pokožku kořenů nazýváme <b>rhizodermis</b>. Stejně jako v případě epidermis, i rhizodermis je obvykle jednovrstevná, pouze ve speciálním případě tzv. vzdušných kořenů, které nacházíme např. u epifytických orchidejí, je pokožka vícevrstevná a slouží k rychlému příjmu vody - označujeme ji jako <b>velamen</b>. Vychlípeniny rhizodermálních buněk nazývame <b>kořenovými vlásky</b> neboli rhiziny. Bývají až několik milimetrů dlouhé, u většiny druhů rostlin nevětvené. Výrazným způsobem rostlině usnadňují příjem vody a minerálních živin. Funkčně se jedná o absorpční trichomy.</p>
+<br>
+<h4 >Praktická část</h4>
+<br>
+<ol>
+    <li><h5>Epidermis listu huseníčku rolního (Arabidopsis thaliana)</h5></li>
+    <p>List huseníčku namontujeme do vody a přímo pozorujeme. Alternativně si můžeme připravit otiskový preparát (mikroreliéfová metoda) – na list naneseme bezbarvý lak na nehty, necháme zaschnout a poté stáhneme pomocí kousku čiré izolepy, kterou spolu s otiskem přilepíme na podložní sklíčko a mikroskopujeme.</p>
+
+
+
+<br>  
+
+<div class="flex-container bg-light ">
+<div class="row">
+    <div class="col-12 col-md-6  align-items-center d-flex justify-content-center">
+        <img src="../images/histologie-img/kryci/bunka16.jpg" id="bunka" alt="Bunka16">
+     </div>
+     <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center">
+        <br>
+    <h6><strong> Epidermální buňky na svrchní (adaxiální) straně listu huseníčku rolního (<em>Arabidopsis thaliana</em>).</strong></h6>
+<p>Přímé pozorování epidermálních buněk a průduchů na svrchní straně listu huseníčku rolního. Epidermální buňky mají laločnatý tvar, typický pro dvouděložné rostliny.</p>
+<ul>
+    <li><b>ep</b> - epidermis</li>
+    <li><b>st</b> - průduch (stoma)</li>
+</ul></div></div></div>
+
+<br>
+<li><h5>Chloroplasty ve svěracích buňkách listu zelence chocholatého (Chlorophytum comosum)</h5></li>
+<p>Příčné ruční žiletkové řezy listovou čepelí zelence namontujeme do vody a pozorujeme pomocí fluorescenčního mikoskopu. Ve svěracích buňkách průduchů můžeme pozorovat autofluoreskující chloroplasty. </p>
+
+<br>
+
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center order-md-2 ">
+       <img src="../images/histologie-img/kryci/bunka17.jpg" id="bunka" alt="Bunka17">
+ </div>
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center order-md-1">
+    <br>
+<h6><strong>Chloroplasty ve svěracích buňkách průduchů epidermis spodní strany listů zelence (<em>Chlorophytum comosum</em>).</strong> </h6>
+<p>Díky využití autofluorescence chloroplastů můžeme snadno pozorovat, že epidermální buňky je na rozdíl od svěracích buněk průduchů neobsahují. Velmi výrazně naopak červeně fluoreskuje listový mezofyl, který má charakter chlorenchymu.</p>
+
+<ul>
+<li><b>ep</b> - epidermis</li>
+<li><b>chp</b> - chloroplast</li>
+<li><b>lm</b> - listový mezofyl</li>
+<li><b>st</b> - průduch (stoma)</li>
+</ul></div></div></div>
+
+<br>
+<li><h5>Papily na korunních lístcích květů macešky (<em>Viola x wittrockiana</em>)</h5></li>
+<p>Papily můžeme pozorovat na korunních lístcích macešky (<em>Viola x wittrockiana</em>) - pozorujeme svrchní stranu lístků, které můžeme popřípadě přehnout rubovou stranou k sobě a papily tak pozorovat z boční strany, čímž vynikne jejich prostorové uspořádání.</p>
+
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center order-md-1 ">
+       <img src="../images/histologie-img/kryci/bunka18.jpg" id="bunka" alt="Bunka18">
+ </div>
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center d-flex align-items-center order-md-2">
+    <br>
+<h6><strong>Papily na korunních lístcích květů macešky (<em>Viola x wittrockiana</em>).</strong> </h6>
+<br>
+</div></div></div>
+
+<br>
+<br>
+
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center order-md-2 ">
+       <img src="../images/histologie-img/kryci/bunka19.jpg" id="bunka" alt="Bunka19">
+ </div>
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center d-flex align-items-center order-md-1">
+    <br>
+<h6><strong>Papily na korunních lístcích květů macešky (<em>Viola x wittrockiana</em>).</strong> </h6>
+<br>
+</div></div></div>
+
+
+<br>
+<li><h5>Krycí, žlaznaté a žahavé trichomy</h5></li>
+<p>Krycí trichomy hlošiny úzkolisté (<em>Elaeagnus angustifolius</em>) a divizny (<em>Verbascum</em> sp.) můžeme pozorovat buď jednotlivě po jejich seškrábnutí na podložní sklíčko, případně můžeme pozorovat rozmístění trichomů na spodní straně listu zhotovením preparátu z části listu. Trichomy santpaulie (<em>Santpaulia ionantha</em>), pelargonie páskaté (<em>Pelargonium zonale</em>) a kopřivy dvoudomé (<em>Urtica dioica</em>) lze pozorovat nejlépe pomocí čerstvých preparátů zhotovených z kousků epidermis stažené z rostlinného těla pomocí žiletky, preparační jehly a pinzety.</p>
+
+<div class="gallery" id="Galeria1">
+    <div class="row">
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka20.jpg', '<strong>Krycí mnohobuněčné trichomy hlošiny úzkolisté <em>Elaeagnus angustifolia</em> na spodní straně listů.</strong>')">
+        <img src="../images/histologie-img/kryci/bunka020.jpg" alt="bunka20" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka21.jpg', '<strong>Izolované krycí mnohobuněčné trichom ze spodní strany listů hlošiny úzkolisté <em>Elaeagnus angustifolia</em>.</strong>')">
+        <img src="../images/histologie-img/kryci/bunka021.jpg" alt="bunka21" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka22.jpg', '<strong>Izolovaný krycí mnohobuněčný trichomy ze spodní strany listů hlošiny úzkolisté <em>Elaeagnus angustifolia</em>.</strong>')">
+        <img src="../images/histologie-img/kryci/bunka022.jpg" alt="bunka22" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka23.jpg', '<strong>Izolované krycí, mnohobuněčné a větvené trichomy z listu divizny <em>Verbascum </em>sp.</strong>.')">
+        <img src="../images/histologie-img/kryci/bunka023.jpg" alt="bunka23" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka24.jpg', '<strong>Krycí, žlaznaté a přisedlé žlaznaté trichomy na stonku pelargonie páskaté <em>Pelargonium zonale</em>.</strong>. <br> Na příčném řezu stonkem pelargonie (muškátu) lze pozorovat tři typy trichomů: krycí trichomy, vícebuněčné žlaznaté trichomy a krátké, přisedlé žlaznaté trichomy. <br> <ul><li><b>ep></b> - epidermis </li><li><b>kt></b> -  krycí trichom</li><li><b>žt</b> - žlaznatý trichom</li><li><b>pžt</b> - přisedlý žlaznatý trichom</li></ul>')">
+        <img src="../images/histologie-img/kryci/bunka024.jpg" alt="bunka24" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka25.jpg', '<strong>Krycí, vícebuněčné a nevětvené trichomy na svrchní straně listu santpaulie <em>Santpaulia ionantha</em>.</strong>')">
+        <img src="../images/histologie-img/kryci/bunka025.jpg" alt="bunka25" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka26.jpg', '<strong>Krycí, žlaznazé a přisedlé žlaznaté trichomy tvořené epidermálními buňkami řapíku listu santpaulie <em>Santpaulia ionantha</em>.</strong>. <br> <ul><li><b>kt></b> - krycí trichom </li><li><b>žt</b> - žlaznatý trichom</li><li><b>pžt</b> - přisedlý žlaznatý trichom</li></ul>')">
+        <img src="../images/histologie-img/kryci/bunka026.jpg" alt="bunka26" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('1','../images/histologie-img/kryci/bunka27.jpg', '<strong>Krycí, žlaznazé a přisedlé žlaznaté trichomy tvořené epidermálními buňkami řapíku listu santpaulie <em>Santpaulia ionantha</em>.</strong>. <br> <ul><li><b>pžt</b> - přisedlý žlaznatý trichom</li><li><b>e></b> - epidermis </li><li><b>par</b> -parenchym</li><li><b>chp</b> -chloroplasty</li></ul>')">
+        <img src="../images/histologie-img/kryci/bunka027.jpg" alt="bunka27" class="gallery-image">
+    </div>
+</div>
+</div>
+
+<div class="large-image-container bg-light " id="kontainer1">
+    <div class="flex-container">
+    <div class="row">
+        <div class="large-image col-12 col-md-6 w-md-100 d-flex justify-content-center ">
+    <img id="largeImage1" src="" alt="Klikněte na menší obrazek pro detailnější zobrazení a popis.">
+    </div>
+    <div class="image-description col-md-6 w-100 w-md-50 align-items-center d-flex justify-content-center">
+        <div id="popisobr1"></div>
+</div></div></div></div>
+
+
+<br>
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-12 align-items-center d-flex justify-content-center ">
+       <img src="../images/histologie-img/kryci/bunka28.jpg" id="bunka28" alt="Bunka28">
+ </div></div><div class="row">
+ <div class="text col-md-12 w-100  justify-content-center align-items-center">
+    <br>
+<h6><strong>Žahavý trichom na spodní straně listu kopřivy dvoudomé  (<em>Urtica dioica</em>).</strong> </h6>
+<p>Ve vícebuněčné bázi trichomu je usazen velký jednobuněčný trichom. Buněčná stěna hrotu trichomu je inkrustována křemičitany a je velmi náchylná na mechanické poškození. Dojde-li ke kontaktu s živočichem, konec trichomu se snadno ulomí. Vzniká struktura podobná injekční jehle, která do poraněné pokožky uvolňuje látky způsobující lokální otoky a zarudnutí. </p>
+
+<ul>
+<li><b>bt</b> - báze trichomu</li>
+<li><b>ht</b> - hrot trichomu</li>
+</ul></div></div></div>
+
+
+<br>
+
+<li><h5>Kořenové vlásky - absorpční trichomy kořenů</h5></li>
+<p>Kořenové vlásky můžeme snadno pozorovat makroskopicky nebo s použitím binokulárního mikroskopu na předklíčených rostlinách kukuřice seté (Zea mays), popřípadě na jiných rostlinných druzích.</p>
+
+<br>
+
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center ">
+       <img src="../images/histologie-img/kryci/bunka29.jpg" id="bunka" alt="Bunka29">
+ </div>
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center">
+    <br>
+<h6><strong>Kořenové vlásky - absorpční trichomy kořenů kukuřice seté (<em>Zea mays</em>).</strong> </h6>
+<p>Na seminálním a adventivních kořenech v Petriho misce na vlhkém filtračním papíru předklíčené rostliny kukuřice lze vidět rozvinuté kořenové vlášení, kvořené jednotlivými absorpčními trichomy - kořenovými vlásky. Ty se podstatnou měrou uplatňují při získávání vody a minerálních živin z většího objemu půdy. Apikální část kořene produkuje mucigel - slizovitou zvlhčující látku, usnadňující pronikání kořene půdou.</p>
+
+<ul>
+<li><b>kv</b> - kořenový vlásek</li>
+<li><b>sk</b> - seminální kořen</li>
+<li><b>ak</b> - adventivní kořen</li>
+<li><b>mu</b> - mucigel (sliz)</li>
+</ul></div></div></div>
+
+</ol>
+</div>
+<hr>
+
+<div class="flex-container">
+<h3 id="22.">Základní pletiva</h3>
+<h4>Teoretický souhrn</h4>
+<br>
+<p>Na stavbě primárního těla cévnatých rostlin se podílejí zejména tyto čtyři typy pletiv: pletiva meristematická, krycí, základní a vodivá. Všechny tyto čtyři typy pletiv se skládají z charakteristických typů buněk a obvykle plní více než jednu funkci. Tyto funkce přitom většinou mají jednu společnou vlastnost: jsou evolučními adaptacemi na život mimo vodní prostředí, tedy na souši.</p>
+<p><b>Základní pletiva</b> se diferencují ze základního meristému a vytváří většinu primárního těla vyšších rostlin. Například primární kůra kořenů nebo dřeň stonků či listový mezofyl jsou tvořeny téměř výhradně základními pletivy. Základní pletiva jsou na povrchu kryta pletivy krycími a uzavírají pletiva vodivá. Mají několik základních funkcí, např. v nich probíhá značná část metabolických reakcí, mají zásobní funkci a poskytují též mechanickou podporu (díky turgoru, popř. ztloustnutí buněčných stěn). Základní pletiva jsou tvořena třemi typy buněk – <b>buňkami parenchymatickými, kolenchymatickými a sklerenchymatickými</b>. Tyto buňky, pokud jsou odvozeny ze základního meristému a sousedí spolu ve velkém počtu pak skládají jednotlivé podtypy základních pletiv – pletiva parenchymatická, kolenchymatická či sklerenchymatická. Pletiva kolenchymatická a sklerenchymatická často označujeme souhrnně jako <b>pletiva mechanická</b>, neboť jejich hlavní funkcí je mechanická výztuha rostlinných orgánů.</p>
+<p>Pozor – neplatí tedy, že výskyt daného typu buněk (např. parenchymatických) i ve velkém množství definuje název pletiva. Např. parenchymatické buňky se standardně nacházejí v primárních i sekundárních vodivých pletivech (produkty prokambia, resp. kambia) či ve felodermě (produkt felogénu).</p>
+<p>Parenchymatické buňky jsou nejrozšířenější a nejuniverzálnější buňky rostlinného organismu v primární anatomické stavbě. Mají pouze málo význačných charakteristik – typické parenchymatické buňky jsou i v dospělosti živé, mají obvykle přibližně izodiametrický tvar (tj. ve všech směrech mají stejný rozměr), tenkou primární buněčnou stěnu a velké vakuoly. V praxi jsou za parenchymatické označovány všechny buňky, které nelze zařadit do jiné strukturní nebo funkční skupiny.</p>
+<p>Parenchymatické buňky mají dvě významné funkce z hlediska fungování rostlinného organismu: </p>
+<br>
+<ul>
+    <li>Metabolická centra. Parenchymatické buňky jsou hlavními místy metabolických funkcí jako jsou fotosyntéza či  respirace.</li>
+    <li>Zásobní funkce. Rostliny ukládají své zásobní energeticky bohaté látky právě v parenchymatických buňkách. <br>Nejrozšířenější zásobní látkou rostlin je škrob, který je  ukládán ve formě škrobových zrn.</li>
+</ul>
+<br>
+<p><b>Parenchymatické buňky</b> se diferencují z buněk produkovaných všemi meristémy v celém rostlinném těle. Mezi jejich význačné vlastnosti patří jejich schopnost dediferenciace a následné diferenciace v jiný buněčný typ, např. se změnou okolních podmínek, v nichž rostlina roste.</p>
+<p>V rámci parenchymu se odlišují další podtypy tohoto základního pletiva: <b>chlorenchym, aerenchym a transferové buňky</b>. Typickým znakem chlorenchymatických buněk je přítomnost chloroplastů, jedná se tedy o pletivo specializované k fotosyntéze. Aerenchym je charakterizován velkým podílem mezibuněčných prostor v celkovém objemu pletiva. Díky tomu má schopnost zvýšené výměny plynů a vskutku se vyskytuje převážně blízko nebo přímo v metabolicky aktivních oblastech základního pletiva. V závislosti na stavbě rostlinného orgánu však může aerenchymatické pletivo plnit rovněž mechanickou funkci při současné minimalizaci metabolických nároků  - např. ve dřeni ve stoncích sítiny (Juncus sp.). Transferové buňky jsou specializované na přenosy látek na krátké vzdálenosti a liší se stavbou buněčné stěny. Ta je vysoce členěná, nelignifikovaná, s četnými vchlípeninami zvyšujícími až dvacetkrát plochu plazmalemy. Tímto mechanismem se zvyšují, při předpokládaném zachování počtu membránových přenašečů na jednotku plochy plazmalemy,  schopnosti aktivního transportu buňky. Tento podtyp parenchymu se vyskytuje např. podél vodivých elementů v xylému a floému (tedy podél vodivých pletiv), ale i v sekrečních žlázách nebo nektáriích.</p>
+<p>Kolenchymatické buňky jsou podlouhlé buňky (dosahují délky až 2 mm) s nerovnoměrně ztloustlými <b>primárními buněčnými stěnami</b>. Jejich hlavní funkcí je mechanická podpora aktivně rostoucích nadzemních částí a běžně je nacházíme ve vyvíjejících se listech, řapících listů či ve stoncích. Protože buněčné stěny kolenchymu nejsou lignifikované, jsou schopny se protáhnout tak jak se prodlužují okolní buňky a rostlina roste.</p>
+<p>Kolenchymatické buňky se diferencují z buněk parenchymatických a i v dospělosti jsou živé. Nejčastěji vytvářejí provazce nebo prstenec těsně pod epidermis, což je z hlediska mechanického výhodnější, něž kdyby rostlinný orgán vyztužovaly v jeho středu. Diferenciace kolenchymatických buněk je navíc silně ovlivňována mechanickým stresem, kterému je daný rostlinný orgán vystaven – například účinky proudění vzduchu stimulují vývin kolenchymatických buněk v řapících listů.</p>
+<p>Podle lokalizace ztloustnutí buněčných stěn (BS) rozlišujeme několik typů kolenchymu: </p>
+<br>
+<ul>
+<li>Rohový kolenchym – BS tloustnou v místě dotyku tří a více buněk, tedy v "rozích" buněk.</li>
+<li>Deskový (syn. tangenciální) kolenchym – tloustnou periklinální (s povrchem orgánu rovnoběžné, tangenciální) BS.</li>
+<li>Mezerový kolenchym – tloustnou BS v okolí mezibuněčných prostor. Je jediným typem mechanického pletiva, který má vyvinut interceluláry.</li>
+<li>Prstencový kolenchym – BS tloustnou víceméně rovnoměrně po celém povrchu buněk, ovšem na několika místech zůstává BS neztloustlá.</li>
+</ul>
+<br>
+<p><b>Sklerenchymatické buňky</b> (z řeckého skleros - tvrdý) mají silné, <b>sekundární</b>, typicky lignifikované a tedy pevné a neroztažitelné buněčné stěny. Poskytují mechanickou podporu již nerostoucím rostlinným orgánům a po ukončení svého vývoje obvykle odumírají – vlastní strukturou poskytující rostlině mechanickou podporu jsou tedy pouze silné buněčné stěny. Obdobně jako kolenchymatické buňky, i buňky sklerenchymatické se diferencují z parenchymu.</p>
+<p>Rozlišujeme dva typy sklerenchymatických buněk vytvářejících základní pletiva: sklereidy a fibrily (syn. vlákna). Sklereidy jsou relativně krátké buňky proměnlivého tvaru, vyskytující se ovšem většinou jednotlivě nebo pouze v malých skupinách. Nalezneme je ve všech částech rostlin. Jako příklad sklereid tvořících základní pletivo lze uvést prstenec brachysklereid ve vnitřním kortexu vzdušného kořene monstery nádherné (Monstera deliciosa). Fibrily se obvykle vyskytují ve skupinách, nacházíme je tedy jako svazky těchto buněk. Jednotlivé fibrilární buňky jsou tenké a velmi podlouhlé, s překrývajícími se konci. Lumen buněk je malý, silná sekundární buněčná stěna je zpravidla lignifikovaná. </p>
+<br>
+<h4>Praktická část</h4>
+<br>
+<p>Zhotovíme příčné ruční žiletkové řezy větévkou bezu černého (Sambucus nigra), stonkem sítiny sivé (Juncus inflexus) a šáchoru střídavolistého (Cyperus alternifolius), oddenkem puškvorce obecného (Acorus calamus), řapíkem listu begónie (Begonia heraclea), řepy (Beta vulgaris) a brukve (Brassica sp.) a stonkem pelargonie páskaté (Pelargonium zonale). V případě, že řezy obsahují vzduch (zejména v případě aerenchymatického pletiva), je možné jej odstranit sníženým tlakem pomocí vývěvy nebo vakuové pumpy. Výhodné pro pozorování aerenchymu jsou poněkud silnější řezy. Naproti tomu pozorování chlorenchymu vyžaduje řezy pokud možno co nejtenčí. V případě oddenku puškvorce je vhodné vymýt teplou vodou z pletiva škrobová zrna, která znesnadňují pozorování. Změnou nastavení kolektorové clony (větším přicloněním oproti teoretické optimální hodnotě) lze často docílit lepších výsledků při pozorování preparátů.</p>
+<br>
+<ol>
+<li><h5>Parenchym  a prozenchym - dřeň větévky bezu černého (Sambucus nigra), lístek měříku příbuzného (Mnium affine)</h5></li>
+<br>
+
+<div class="gallery" id="Galeria2">
+    <div class="row">
+    <div class="gallery-item" onclick="changeImage('2','../images/histologie-img/zakladni/bunka1.jpg', '<strong>Parenchym dřeně větévky bezu černého (<em>Sambucus nigra</em>)</strong> <br> Parenchymatické buňky jsou přibližně izodiametrické, tenkostěnné, s četnými intercelulárami. <br> <ul><li><b>i</b> - intercelulára</li><li><b>bs</b> - buněčná stěna</li></ul>')">
+        <img src="../images/histologie-img/zakladni/bunka01.jpg" alt="bunkaz1" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('2','../images/histologie-img/zakladni/bunka2.jpg', '<strong>Parenchym dřeně větévky bezu černého(<em>Sambucus nigra</em>)</strong>  <br> Parenchymatické buňky větévky bezu mohou mít perforované buněčné stěny. Těmito místy procházejí plazmodezmata (provazce cytoplazmy) a dochází tak ke komunikaci dvou sousedních buněk. <br> <ul><li><b>pbs</b> - perforace buněčné stěny</li><li><b>bs</b> - buněčná stěna</li></ul>')">
+        <img src="../images/histologie-img/zakladni/bunka02.jpg" alt="bunkaz2" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('2','../images/histologie-img/zakladni/bunka3.jpg', '<strong>Parenchymatické a prozenchymatické buňky v lístku mechu měříku příbuzného (<em>Mnium affine</em>)</strong> <br> Na periferní části lístku měříku příbuzného se nacházejí protáhlé, na konci zašpičatělé prozenchymatické buňky. Stejně jako blíže středu lístku ležící buňky parenchymatické obsahují velké množství chloroplastů. <br> <ul><li><b>bs</b> - buněčná stěna</li> <li><b>chp</b> - chloroplast</li> <li><b>par</b> - parenchym</li> <li><b>pr</b> - prozenchym</li></ul>')">
+        <img src="../images/histologie-img/zakladni/bunka03.jpg" alt="bunkaz3" class="gallery-image">
+    </div>
+</div>
+</div>
+
+<div class="large-image-container bg-light" id="kontainer2">
+    <div class="flex-container">
+    <div class="row">
+        <div class="large-image col-12 col-md-6 w-md-100 d-flex justify-content-center ">
+    <img id="largeImage2" src="" alt="Klikněte na menší obrazek pro detailnější zobrazení a popis.">
+    </div>
+    <div class="image-description col-md-6 w-100 w-md-50 align-items-center d-flex justify-content-center">
+        <div id="popisobr2"></div>
+</div></div></div></div>
+
+<br>
+<li><h5>Aerenchym - dřeň stonku sítiny sivé (Juncus inflexus), šáchoru střídavolistého (Cyperus alternifolius) a puškvorce obecného (Acorus calamus)</h5></li>
+<br>
+
+<div class="gallery" id="Galeria3">
+    <div class="row">
+    <div class="gallery-item" onclick="changeImage('3','../images/histologie-img/zakladni/bunka4.jpg', '<strong>Aerenchymatické pletivo dřeně stonku sítiny sivé  (<em>Juncus inflexus</em>)</strong>  <br> V centrální části stonku se nachází aerenchymatické pletivo tvořené buňkami s výraznými rameny - aktinenchym. V místě dotyku dvou ramen jsou zřetelné buněčné stěny. <br> <ul> <li><b>i</b> - intercelulára</li> <li><b>bsl</b> - buněčná stěna</li></ul>')">
+        <img src="../images/histologie-img/zakladni/bunka04.jpg" alt="bunkaz1" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('3','../images/histologie-img/zakladni/bunka5.jpg', '<strong>Aerenchym ve střední části stonku šáchoru (<em>Cyperus alternifolius</em>)</strong>  <br> Ve stonku šáchoru lze nalézt dva typy aerenchymatického pletiva. Kolem uzavřených kolaterálních cévních svazků, popřípadě izolovaných provazců sklerenchymu, se nachází menší schizogenní interceluláry, zatímco dále od nich se nacházejí velké rhexigenní interceluláry. <br> <ul><li><b>cs</b> - cévní svazek</li> <li><b>i</b> - intercelulára</li> <li><b>ri</b> - rhexigenní intercelulára</li> <li><b>skl</b> - sklerenchym</li></ul>')">
+        <img src="../images/histologie-img/zakladni/bunka05.jpg" alt="bunkaz2" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('3','../images/histologie-img/zakladni/bunka6.jpg', '<strong>Aerenchym ve střední části stonku šáchoru (<em>Cyperus alternifolius</em>)</strong> <br> Ve stonku šáchoru lze nalézt dva typy aerenchymatického pletiva. Kolem uzavřených kolaterálních cévních svazků, popřípadě izolovaných provazců sklerenchymu, se nachází menší schizogenní interceluláry, zatímco dále od nich se nacházejí velké rhexigenní interceluláry. <br> <ul><li><b>bs</b> - buněčná stěna</li> <li><b>i</b> - intercelulára</li> <li><b>ri</b> - rhexigenní intercelulára</li> <li><b>skl</b> - sklerenchym</li> </ul>')">
+        <img src="../images/histologie-img/zakladni/bunka06.jpg" alt="bunkaz3" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('3','../images/histologie-img/zakladni/bunka7.jpg', '<strong>Aerenchym v oddenku puškvorce (<em>CAcorus calamus</em>)</strong> <br> Aerenchymatické pletivo má v oddenku puškvorce kromě provětrávací funkce rovněž funkci zásobní - obsahuje značné množství škrobových zrn. Některé z aerenchymatických buněk se svojí velikostí a obsahem výrazně odlišují od buněk ostatních; takové buňky označujeme jako idioblasty. <br> <ul> <li><b>i</b> - intercelulára</li> <li><b>šz</b> - škrobové zrno</li> <li><b>ib</b> - idioblast</li> </ul>')">
+        <img src="../images/histologie-img/zakladni/bunka07.jpg" alt="bunkaz4" class="gallery-image">
+    </div>
+</div>
+</div>
+
+<div class="large-image-container bg-light" id="kontainer3">
+    <div class="flex-container">
+    <div class="row">
+        <div class="large-image col-12 col-md-6 w-md-100 d-flex justify-content-center ">
+    <img id="largeImage3" src="" alt="Klikněte na menší obrazek pro detailnější zobrazení a popis.">
+    </div>
+    <div class="image-description col-md-6 w-100 w-md-50 justify-content-center d-flex align-items-center">
+        <div id="popisobr3"></div>
+</div></div></div></div>
+
+<br>
+<li><h5>Rohový a deskový kolenchym begónie, řepy a brukve</h5></li>
+<br>
+
+<div class="gallery" id="Galeria4">
+    <div class="row">
+    <div class="gallery-item" onclick="changeImage('4','../images/histologie-img/zakladni/bunka8.jpg', '<strong>Rohový kolenchym v řapíku listu begónie (<em>Begonia heraclea</em>)</strong> <br>Rohový kolenchym se v řapíku listu begónie vyskytuje těsně pod epidermis. Buněčné stěny rohového kolenchymu tloustnou v místě dotyku tří a více buněk. <br> <ul><li><b>e</b> - epidermis</li> <li><b>bs</b> - buněčná stěna</li> <li><b>kol</b> - kolenchymatické buňky</li> <li><b>par</b> - parenchymatické buňky</li> </ul>')">
+        <img src="../images/histologie-img/zakladni/bunka08.jpg" alt="bunkaz8" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('4','../images/histologie-img/zakladni/bunka9.jpg', '<strong>Rohový kolenchym v řapíku listu řepy (<em>Beta vulgaris</em>)</strong>  <br> Rohový kolenchym se v řapíku listu řepy vyskytuje v okrscích těsně pod epidermis. Buněčné stěny rohového kolenchymu tloustnou v místě dotyku tří a více buněk. <br> <ul> <li><b>e</b> - epidermis</li> <li><b>ku</b> - kutikula</li> <li><b>e</b> - epidermis</li> <li><b>kol</b> - kolenchymatické buňky</li> <li><b>par</b> - parenchymatické buňky</li> <li><b>i</b> - intercelulára</li></ul>')">
+        <img src="../images/histologie-img/zakladni/bunka09.jpg" alt="bunkaz9" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('4','../images/histologie-img/zakladni/bunka10.jpg', '<strong>Deskový kolenchym v řapíku listu brukve (<em>Brassica</em> sp.)</strong> <br> Deskový kolenchym se v řapíku listu brukve vyskytuje těsně pod epidermis. Buněčné stěny deskového kolenchymu tloustnou nerovnoměrně - periklinální primární buněčné stěny (rovnoběžné s povrchem orgánu) jsou zesílené, antiklinální buněčné stěny (kolmé k povrchu) zůstávají neztloustlé. Hranici mezi kolenchymatickým a parenchymatickým pletivem není možné přesně určit, přechod mezi nimi je postupný. <br>  <ul> <li><b>e</b> - epidermis</li> <li><b>ku</b> - kutikula</li> <li><b>kol</b> - kolenchymatické buňky</li> <li><b>par</b> - parenchymatické buňky</li></ul>')">
+        <img src="../images/histologie-img/zakladni/bunka010.jpg" alt="bunkaz10" class="gallery-image">
+    </div>
+</div>
+</div>
+
+<div class="large-image-container bg-light" id="kontainer4">
+    <div class="flex-container">
+    <div class="row">
+        <div class="large-image col-12 col-md-6 w-md-100 d-flex justify-content-center ">
+    <img id="largeImage4" src="" alt="Klikněte na menší obrazek pro detailnější zobrazení a popis.">
+    </div>
+    <div class="image-description col-md-6 w-100 w-md-50 justify-content-center d-flex align-items-center">
+        <div id="popisobr4"></div>
+</div></div></div></div>
+
+<br>
+<li><h5>Sklerenchym - stonek muškátu (Pelargonium zonale) a šáchoru (Cyperus alternifolius)</h5></li>
+<br>
+
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center ">
+       <img src="../images/histologie-img/zakladni/bunka11.jpg" id="bunkaupr" alt="Bunka29">
+ </div>
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center">
+    <br>
+<h6><strong>Základní pletiva ve stonku muškátu (<em>Pelargonium zonale</em>).</strong></h6>
+<p>Ve stonku muškátu lze nalézt všechny tři typy základného pletiva. Jednovrstevný deskový kolenchym se vyskytuje těsně pod epidermis. K němu přiléhá parenchymatické pletivo s vysokým obsahem chloroplastů - chlorenchym. Najdeme zde rovněž prstenec sklerenchymatických buněk, na nějž opět navazuje parenchymatické pletivo - dřeň.</p>
+
+<ul>
+    <li><b>e</b> - epidermis</li>
+    <li><b>kol</b> - kolenchymatické buňky</li>
+    <li><b>chl</b> - chlorenchym</li>
+    <li><b>skl</b> - sklerenchym</li>
+    <li><b>par</b> - parenchymatické buňky</li>
+    <li><b>cs</b> - cévní svazek</li>
+</ul></div></div></div>
+
+<br>
+
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center order-md-2">
+       <img src="../images/histologie-img/zakladni/bunka12.jpg" id="bunkaupr" alt="Bunka12">
+ </div>
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center order-md-1">
+    <br>
+<h6><strong>Periferní části stonku šáchoru (<em>Cyperus alternifolius</em>) - příčný řez.</strong></h6>
+<p>Chlorenchymatické pletivo na periferii stonku šáchoru je přerušováno po célém obvodu stonku pravidelně rozmístěnými provazci sklerenchymatických buněk. Rovněž na xylémovou část uzavřeného kolaterálního cévního svazku přiléhá oblast sklerenchymatických buněk. Průduchy v epidermis se nachází vždy naproti chlorenchymatickému pletivu.</p>
+
+<ul>
+    <li><b>e</b> - epidermis</li>
+    <li><b>st</b> - průduch (stoma)</li>
+    <li><b>chp</b> - chloroplast</li>
+    <li><b>chl</b> - chlorenchym</li>
+    <li><b>skl</b> - sklerenchym</li>
+    <li><b>cs</b> - cévní svazek</li>
+    <li><b>par</b> - parenchym</li>
+    <li><b>i</b> - intercelulára</li>
+</ul></div></div></div>
+<ol>
+</div>
+
+<hr>
+
+<div class="flex-container">
+    <h3 id="23.">Vodivá pletiva</h3>
+    <h4>Teoretický souhrn</h4>
+    <br>
+    <p>Vodivá pletiva zabezpečují transport vodných roztoků organických a anorganických látek po celém rostlinném těle, často na poměrně velké vzdálenosti. Z hlediska evoluce rostlin byla diferenciace pravých vodivých pletiv jednou z nejdůležitějších evolučních novinek, které umožnily růst rostlin v suchozemském prostředí a něm dorůstat do velkých rozměrů. Přítomnost pravých vodivých pletiv je charakteristickým znakem skupiny vyšších rostlin označované jako <b>Tracheophyta</b> neboli <b>cévnaté rostliny</b>.</p>
+<p>Vodivá pletiva dělíme do dvou základních částí, lišících se stavbou i funkcí. <b>Xylémová část</b> slouží k transportu vodného roztoku, tzv. xylémové štávy, po celém těle rostliny. Tento tok má výraznou akropetální polaritu - směřuje z hlavního místa příjmu vody a minerálních živin (z kořenů) do hlavních míst výdeje vody (nadzemní části rostliny, zejména listy) - nazýváme jej proto transpiračním proudem. Naproti tomu <b>floemové části</b> rozvádí zejména energeticky bohaté látky (sacharidy) syntetizované v procesu fotosyntézy po celém rostlinném organismu - floémový tok je tedy všesměrný.</p>
+<p>Do souboru vodivých pletiv patří kromě specializovaných vodivých elementů (cévy a cévice xylému, sítkové buňky a sítkovice floému) i mechanické složky vodivých pletiv zabezpečující pevnost a rovněž parenchymatické buňky.</p>
+<p>Vodivá pletiva rostlin s primární stavbou jsou produktem primárního meristému prokambia a vyskytují se v podobě samostatných, navzájem izolovaných cévních svazků. Pokud rostlina sekundárně tloustne, zakládá se v ní sekundární laterální meristém kambium. Výsledkem činnosti kambia po několika vegetačních sezónách je kompaktní válec sekundárního xylému a floému.</p>
+<p>Podle vzájemné pozice xylému a floému rozlišujeme <b>tři základní typy cévních svazků (CS): koncentrický, kolaterální a bikolaterální</b>. Pro organizaci vodivých pletiv k kořenech se občas používá termín radiální cévní svazek (v tomto smyslu je pouze jeden v daném kořeni!), lépe je však použít opis <b>radiální organizace vodivých pletiv</b>.</p>
+<p><b>Koncentrické CS</b> považujeme za fylogeneticky nejpůvodnější typ CS. V takto organizovaném cévním svazku jeden typ vodivého pletiva obklopuje a uzavírá druhý typ vodivého pletiva. Nachází-li se ve středu koncentrického CS floém, označujeme jej jako lýkostředný (leptocentrický). Pokud je ve středu xylém, označujeme jej jako dřevostředný (hadrocentrický).</p>
+<p>Kolaterální CS jsou typické pro nadzemní části vyšších rostlin. Oblasti xylému a floému v rámci jednoho kolaterálního cévního svazku spolu sousedí a mají i typické umístění - např. u stonku se nachází xylém směrem dovnitř k ose stonku (centripetálně), floém se nachází naopak směrem ven (centrifugálně).</p>
+<p>Obdobně uspořádaný je <b>bikolaterální CS</b>, v nemž dva póly floému lemují ze dvou stran xylém. Elementy floému nejsou zcela rovnocenné, floém na vnější straně CS je zpravidla lépe vyvinut.</p>
+<p><b>Radiální organizace vodivých pletiv</b> se vyskytují v kořenech. Samostatné póly protoxylému a protofloému se v něm střídají po obvodu středního válce. Podle počtů těchto pólů rozlišujeme radiální organizaci monoarchní (po jednom pólu protoxylému a protofloému), diarchní (po dvou pólech), triarchní, tetrachní, pentarchní až polyarchní. V kořenech se nejdříve diferencované elementy xylému a floému (protoxylém a protofloém) nacházejí vždy z vnější strany pólů vodivého pletiva, takže metaxylém a metafloém se diferencují směrem dovnitř (centripetálně).</p>
+<br>
+<h4>Praktická část</h4>
+<br>
+<p>Zhotovíme příčné ruční žiletkové řezy oddenkem puškvorce (Acorus calamus), stonky šáchoru (Cyperus alternifolius), voděnky (Tradescantia  sp.) a pelargonie páskaté (Pelargonium zonale) a listem tenury (Sanseviera zeylanica). V případě, že řezy obsahují vzduch (zejména v případě aerenchymatického pletiva puškvorce), je možné jej odstranit sníženým tlakem pomocí vývěvy nebo vakuové pumpy. Aerenchymatické pletivo puškvorce obsahuje velké množství škrobových zrn, které je možné odstranit promýváním řezů v teplé vodě po dobu několika minut až desítek minut. Pletiva s lignifikovanými buněčnými stěnami můžeme zvýraznit barvením florglucinolem.</p>
+<ol>
+    <li><h5>Koncentrické svazky cévní - oddenek puškvorce (Acorus calamus)</h5></li>
+    <div class="flex-container bg-light ">
+        <div class="row">
+            <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center ">
+           <img src="../images/histologie-img/vodiva/bunka1.jpg" id="bunkaupr" alt="bunka1">
+     </div>
+     <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center">
+        <br>
+    <h6><strong>Koncentrický (leptocentrický, amfivazální) cévní svazek, oddenek puškvorce (<em>Acorus calamus</em>).</strong></h6>
+    <p>Cévní svazky v primární kůře oddenku puškvorce (Acorus calamus) jsou kolaterální uzavřené (cévní svazek listové stopy - oddenek puškvorce je metamorfovaný stonek), zatímco ve středním válci jsou cévní svazky koncentrické, s floémem v centrální oblasti (lýkostředné - leptocentrické, amfivazální). Aerenchymatické pletivo primární kůry i středního válce obsahuje velké množství škrobových zrn. Polohu endodermis nelze na tomto preparátu přesně určit.</p>
+    <ul>
+        <li><b>k</b> - primární kůra (kortex)</li>
+        <li><b>sv</b> - střední válec</li>
+        <li><b>ib</b> - idioblast</li>
+        <li><b>šz</b> - škrobová zrna</li>
+        <li><b>f</b> - floém</li>
+        <li><b>x</b> - xylém</li>
+        <li><b>skl</b> - sklerenchym</li>
+    </ul></div></div></div>
+    
+    <br>
+    <div class="flex-container bg-light ">
+        <div class="row">
+            <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center ">
+           <img src="../images/histologie-img/vodiva/bunka2.jpg" id="bunkaupr" alt="bunka2">
+     </div>
+     <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center">
+        <br>
+    <h6><strong>Koncentrický (leptocentrický, amfivazální) cévní svazek, oddenek puškvorce (<em>Acorus calamus</em>).</strong></h6>
+  <p>Cévní svazky ve středním válci oddenku puškvorce (Acorus calamus) jsou koncentrické, s floémem v centrální oblasti (lýkostředné - leptocentrické). Kolem floému se nachází cévy xylému. Aerenchymatické pletivo v okolí cévních svazků obsahuje velké množství škrobových zrn, které je vhodné při přípravě preparátu vymýt teplou vodou..</p> 
+    <ul>
+        <li><b>i</b> - intercelulára</li>
+        <li><b>f</b> - floém</li>
+        <li><b>x</b> - xylém</li>
+    </ul></div></div></div>
+    
+    <br>
+
+<li><h5>Kolaterální uzavřené cévní svazky šáchoru (Cyperus alternifolius), tenury (Sanseviera zeylanica) a voděnky (Tradescantia sp.)</h5></li>
+<div class="gallery" id="Galeria5">
+    <div class="row w-md-100 d-flex justify-content-center">
+    <div class="gallery-item" onclick="changeImage('5','../images/histologie-img/vodiva/bunka3.jpg', '<strong>Uzavřený kolaterální cévní svazek, stonek šáchoru (<em>Cyperus alternifolius</em>)</strong> <br/> Cévní svazky ve stonku šáchoru (Cyperus alternifolius) jsou kolaterální uzavřené. Oblasti floému a xylému jsou kryty sklerenchymatickými buňkami. Na řezu jsou rozpoznatelné jednotlivé sítkovice i jejich doprovodné buňky. V oblasti xylému se nachází jedna protoxylémová céva a dvojice velkých metaxylémových cév. V blízkosti protoxylému je vytvořena zřetelná rhexigenní intercelulára. Celý cévní svazek se nachází v aerenchymatickém pletivu s velkými intercelelulárami.  <br> <ul> <li><b>px</b> - protoxylém</li> <li><b>mx</b> - metaxylém</li> <li><b>ri</b> - rhexigenní intercelulára</li> <li><b>s</b> - sítkovice</li> <li><b>db</b> - doprovodná buňka</li> <li><b>skl</b> - sklerenchym</li> <li><b>par</b> - parenchym</li> <li><b>i</b> - intercelulára</li> </ul>')">
+        <img src="../images/histologie-img/vodiva/bunka03.jpg" alt="bunkaz3" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('5','../images/histologie-img/vodiva/bunka4.jpg', '<strong>Uzavřený kolaterální cévní svazek, stonek šáchoru (<em>Cyperus alternifolius</em>)</strong> <br/> Uzavřený kolaterální cévní svazek, stonek šáchoru (Cyperus alternifolius) jsou kolaterální uzavřené. Oblasti floému a xylému jsou kryty výrazně autofluoreskujícími sklerenchymatickými buňkami. V oblasti xylému se nachází jedna protoxylémová céva a dvojice velkých metaxylémových cév. V blízkosti protoxylému je vytvořena zřetelná rhexigenní intercelulára. Celý cévní svazek se nachází v aerenchymatickém pletivu s velkými intercelelulárami. Autofluorescence. <br> <ul> <li><b>px</b> - protoxylém</li> <li><b>mx</b> - metaxylém</li> <li><b>ri</b> - rhexigenní intercelulára</li> <li><b>f</b> - floém</li> <li><b>skl</b> - sklerenchym</li> <li><b>par</b> - parenchym</li> <li><b>i</b> - intercelulára</li> </ul>')">
+        <img src="../images/histologie-img/vodiva/bunka04.jpg" alt="bunkaz4" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('5','../images/histologie-img/vodiva/bunka5.jpg', '<strong>Uzavřený kolaterální cévní svazek, list tenury (<em>Sanseviera zeylanica</em>), barveno floroglucinolem</strong> <br> Cévní svazky v listech tenury (Sanseviera zeylanica) jsou kolaterální, uzavřené. Oblast floému je kryta čepičkou sklerenCévní svazky ve stonku muškátu (Pelargonium zonale) jsou kolaterální, otevřené. Mezi oblastí floému a xylému se nachází sekundární meristém kambium, který počátkem příští vegetační sezóny začne produkovat elementy sekundárního floému a xylému. V okolí cévního svazku je možné nalézt parenchymatické (primární kůra, pericykl, dřeň) a sklerenchymatické (sklerenchymatický prstenec) pletivo. Parenchymatické pletivo ve středu stonku (dřeň) obsahuje velké množství škrobových zrn. chymtických buněk. Na řezu jsou rozpoznatelné jednotlivé sítkovice i jejich doprovodné buňky. Buněčné stěny xylému jsou slabě lignifikované. Celý cévní svazek se nachází v parenchymatickém listovém mezofylu.  <br>  <ul> <li><b>lm </b> - listový mezofyl</li> <li><b>x</b> - xylém</li> <li><b>si</b> - sítkovice</li> <li><b>db</b> - doprovodná buňka</li></ul>')">
+        <img src="../images/histologie-img/vodiva/bunka05.jpg" alt="bunkaz5" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('5','../images/histologie-img/vodiva/bunka6.jpg', '<strong>Neúplný uzavřený kolaterální cévní svazek ve střední části stonku voděnky (<em>Tradescantia</em> sp.)</strong> <br>Ve stonku voděnky  (<em>Tradescantia</em> sp.) se vyskytují dva morfologicky odlišné typy uzavřených kolaterálních cévních svazků. Zatímco na periferii stonku jsou v kruhu úplné kolaterální cévní svazky, ve středu tohoto orgánu se vyskytují cévní svazky, jejichž xylémová část je buď silně redukována na protoxylémové elementy, popřípadě může xylém úplně chybět. Autofluorescence.<br>  <ul> <li><b>px</b> - protoxylém</li> <b>ri</b> - rhexigenní intercelulára</li> <li><b>f</b> - floém</li> <li><b>si</b> - sítkovice</li> <li><b>db</b> - doprovodná buňka</li> <li><b>chl</b> - chloroplast</li> </ul>')">
+        <img src="../images/histologie-img/vodiva/bunka06.jpg" alt="bunkaz5" class="gallery-image">
+    </div>
+</div>
+</div>
+
+<div class="large-image-container bg-light" id="kontainer5">
+    <div class="flex-container">
+    <div class="row">
+        <div class="large-image col-12 col-md-6 w-md-100 d-flex justify-content-center ">
+    <img id="largeImage5" src="" alt="Klikněte na menší obrazek pro detailnější zobrazení a popis.">
+    </div>
+    <div class="image-description col-md-6 w-100 w-md-50 justify-content-center d-flex align-items-center">
+        <div id="popisobr5"></div>
+</div></div></div></div>
+
+<br>
+
+
+
+<li><h5>Kolaterální otevřený cévní svazek ve stonku podražce (Aristolochia durior) a muškátu (Pelargonium zonale)</h5></li>
+<br/>
+<div class="gallery" id="Galeria6">
+    <div class="row w-md-100 d-flex justify-content-center">
+    <div class="gallery-item" onclick="changeImage('6','../images/histologie-img/vodiva/bunka7.jpg', '<strong>Kolaterální otevřený cévní svazek ve stonku podražce (<em>Aristolochia durior</em>)</strong> <br/> Ve stonku podražce (Aristolochia durior) se vyskytují kolaterální otevřené cévní svazky, uspořádané ve středním válci do kruhu. Xylémová část cévního svazku je orientovaná k ose stonku (centripetálně), zatímco část floémová je orientovaná směrem k povrchu stonku (centrifugálně). Mezi xylémovou a floémovou částí se nachází sekundární meristém kambium, který se postupně zakládá i z parenchymatických buněk dřeňových paprsků. <br> <ul><li><b>px</b> - protoxylém</li><li><b>mx</b> - metaxylém</li><li><b>dx</b> - deuteroxylém</li><li><b>f</b> - floém</li><li><b>kas</b> - kambium svazkové</li><li><b>akm</b> - kambium mezisvazkové</li><li><b>dp</b> - dřeňový paprsek</li><li><b>skl</b> - sklerenchym</li></ul>')">
+        <img src="../images/histologie-img/vodiva/bunka07.jpg" alt="bunkaz3" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('6','../images/histologie-img/vodiva/bunka8.jpg', '<strong>Kolaterální otevřený cévní svazek ve stonku podražce (<em>Aristolochia durior</em>)</strong> <br/> Mezi xylémovou a floémovou částí otevřeného kolaterálního cévního svazku se nachází sekundární meristém kambium, který dostředivě (centripetálně) odděluje elementy sekundárního xylému (deuteroxylému) a odstředivě (centrifugálně) elementy sekundárního floému (deuterofloému). Mezisvazkové kambium se postupně zakládá dedifereciací parenchymatických buněk dřeňového paprsku. <br> <ul><li><b>dx</b> - deuteroxylém</li><li><b>f</b> - floém</li><li><b>kas</b> - kambium svazkové</li><li><b>akm</b> - kambium mezisvazkové</li> </ul>')">
+        <img src="../images/histologie-img/vodiva/bunka08.jpg" alt="bunkaz4" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('6','../images/histologie-img/vodiva/bunka9.jpg', '<strong>Otevřený kolaterální cévní svazek, stonek muškátu (<em>Pelargonium zonale</em>), barveno floroglucinolem</strong> <br> Cévní svazky v listech tenury (Sanseviera zeylanica) jsou kolaterální, uzavřené. Oblast floému je kryta čepičkou sklerenchymtických buněk. Na řezu jsou rozpoznatelné jednotlivé sítkovice i jejich doprovodné buňky. Buněčné stěny xylému jsou slabě lignifikované. Celý cévní svazek se nachází v parenchymatickém listovém mezofylu.  <br>  <ul> <li><b>lm </b> - listový mezofyl</li> <li><b>x</b> - xylém</li> <li><b>si</b> - sítkovice</li> <li><b>db</b> - doprovodná buňka</li></ul>')">
+        <img src="../images/histologie-img/vodiva/bunka010.jpg" alt="bunkaz5" class="gallery-image">
+    </div>
+    <div class="gallery-item" onclick="changeImage('6','../images/histologie-img/vodiva/bunka10.jpg', '<strong>Otevřený kolaterální cévní svazek, stonek muškátu (<em>Pelargonium zonale</em>), barveno floroglucinolem.</strong> <br>Cévní svazky ve stonku muškátu (Pelargonium zonale) jsou kolaterální, otevřené. Mezi oblastí floému a xylému se nachází sekundární meristém kambium, který počátkem příští vegetační sezóny začne produkovat elementy sekundárního floému a xylému. <br>  <ul> <b>x</b> - xylém</li> <li><b>f</b> - floém</li> <li><b>ka</b> - kambium</li> <li></ul>')">
+        <img src="../images/histologie-img/vodiva/bunka011.jpg" alt="bunkaz5" class="gallery-image">
+    </div>
+</div>
+</div>
+
+<div class="large-image-container bg-light" id="kontainer5">
+    <div class="flex-container">
+    <div class="row">
+        <div class="large-image col-12 col-md-6  d-flex justify-content-center ">
+    <img id="largeImage6" src="" alt="Klikněte na menší obrazek pro detailnější zobrazení a popis.">
+    </div>
+    <div class="image-description col-md-6 justify-content-center d-flex align-items-center">
+        <div id="popisobr6"></div>
+</div></div></div></div>
+
+<br>
+<li><h5>Polyarchní radiální cévní svazek ve vzdušném kořeni monstery (Monstera deliciosa)</h5></li>
+
+<br>
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center ">
+       <img src="../images/histologie-img/vodiva/bunka11.jpg" id="bunkaupr" alt="bunka11">
+ </div>
+
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center">
+    <br>
+<h6><strong>Polyarchní radiální cévní svazek ve středním válci vzdušného kořene monstery (<em>Monstera deliciosa</em>).</strong></h6>
+<p>Polyarchní radiální cévní svazek v kořenech je typickým znakem jednoděložných rostlin, mezi něž monstera patří. Uprostřed středního válce se nachází sklerifikující dřeň, prstenec sklerenchymu je stejně jako parenchymatické pletivo ležící zevně od něj součástí primární kůry.</p>
+<ul>
+    <li><b>f</b> - floém</li>
+    <li><b>x</b> - xylém</li>
+    <li><b>d</b> - dřeň</li>
+    <li><b>skl</b> - sklerenchym</li>
+    <li><b>par</b> - parenchym</li>
+</ul></div></div></div>
+
+<br>
+
+<div class="flex-container bg-light ">
+    <div class="row">
+        <div class=" image col-12  col-md-6 align-items-center d-flex justify-content-center order-md-2 ">
+       <img src="../images/histologie-img/vodiva/bunka12.jpg" id="bunkaupr" alt="bunka12">
+ </div>
+ <div class="text col-md-6 w-100 w-md-50 justify-content-center align-items-center order-md-1">
+    <br>
+<h6><strong>Polyarchní radiální cévní svazek ve středním válci vzdušného kořene monstery (<em>Monstera deliciosa</em>).</strong></h6>
+<p>Polyarchní radiální cévní svazek v kořenech je typickým znakem jednoděložných rostlin, mezi něž monstera patří. Uprostřed středního válce se nachází sklerifikující dřeň, prstenec sklerenchymu je stejně jako parenchymatické pletivo ležící zevně od něj součástí primární kůry. Autofluorescence.</p>
+<ul>
+    <li><b>x</b> - xylém</li>
+    <li><b>f</b> - floém</li>
+    <li><b>d</b> - dřeň</li>
+    <li><b>skl</b> - sklerenchym</li>
+    <li><b>par</b> - parenchym</li>
+</ul></div></div></div>
+
+</ol>
+
+</div>
+</div>
+<div class="flexed-container">
+<hr/>
+
+     <footer>
+      <p>@ franova</p>
+   </footer>
+    </div>
+   </body>
+   </html>
